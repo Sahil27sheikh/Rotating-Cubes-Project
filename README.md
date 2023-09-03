@@ -1,6 +1,6 @@
 <pre><h2>Rotating Cubes Project</h2>
 <b>In this "Rotating Cube Project" I am creat three cubes of different sizes and colors with
-the arrangement of horizantal direction on the screen.</b>
+the arrangement of horizantal direction on the screen.</b><hr>
 &#10148;Cube-1: Different color of all sides and rotate continuesly in direction of 360 degree.<hr>
 &#10148;Cube-2: The rotating cubes is larger in size than all other rotating cubes. it continuesly
         rotate in the derection  of 360 degree and it has different gradient color on each side which is
