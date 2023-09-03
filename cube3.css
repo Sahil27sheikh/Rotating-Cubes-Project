@@ -1,0 +1,208 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: radial-gradient(white, yellow, red, pink);
+}
+
+.container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 30vw; 
+    background: linear-gradient(rgb(38, 255, 0), blue, pink, black);
+    border-radius: 60ex;
+    perspective: 200vh;
+    perspective-origin: top right;
+}
+
+.main {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 30vw; 
+    background: radial-gradient(red, blue, pink, rgb(39, 244, 3)); 
+    border-radius: 60px;
+    perspective: 200vh;
+    perspective-origin: top right;
+}
+
+.none {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 30vw; 
+    background: linear-gradient(rgb(57, 249, 3), blue, pink, black);
+    border-radius: 60ex;
+    perspective: 200vh;
+    perspective-origin: top right;
+}
+
+.tube {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 30vh;
+    transform-style: preserve-3d;
+    animation: Sahil 5s ease-in-out 0s infinite alternate;
+}
+
+.cube {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 20vw;
+    width: 20vw;
+    transform-style: preserve-3d;
+    animation: Sahil 3s ease-in-out 0s infinite alternate-reverse;
+}
+
+.muge {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 30vh;
+    transform-style: preserve-3d;
+    transition: all;
+    transition-duration: 10s;
+    transition-timing-function: ease-out
+}
+.muge:hover{
+    transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg); 
+}
+
+@keyframes Sahil {
+    form {
+        transform: rotateY() rotateX() rotateZ();
+    }
+
+    to {
+        transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);
+    }
+
+}
+
+.box {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 30vh;
+    border: 2px solid black;
+    font-size: 4vh;
+    font-weight: bolder;
+}
+
+.fox {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    font-size: 4vh;
+    font-weight: bolder;
+}
+
+.a {
+    background-color: cadetblue;
+    transform-origin: center;
+    transform: translateZ(15vh);
+}
+
+.b {
+    background-color: navajowhite;
+    transform-origin: center;
+    transform: rotateY(180deg) translateZ(15vh);
+}
+
+.c {
+    background-color: blue;
+    transform: rotateX(90deg) translateZ(15vh);
+}
+
+.d {
+    background-color: rgb(0, 213, 255);
+    transform-origin: center;
+    transform: rotateX(-90deg) translateZ(15vh);
+}
+
+.e {
+    background-color: rgb(23, 244, 15);
+    transform: rotateY(-90deg) translateZ(15vh);
+}
+
+.f {
+    background-color: brown;
+    transform: rotateY(90deg) translateZ(15vh);
+
+}
+
+
+.g {
+    background: radial-gradient(aqua, blue, rgb(0, 255, 98), yellow, pink);
+    transform-origin: center;
+    transform: translateZ(11vw);
+}
+
+.h {
+    background: radial-gradient(pink, yellow, rgb(3, 253, 48), blue, aqua);
+    transform-origin: center;
+    transform: rotateY(180deg) translateZ(11vw);
+}
+
+.i {
+    background: radial-gradient(aqua, blue, rgb(0, 255, 98), yellow, pink);
+    transform: rotateX(90deg) translateZ(11vw);
+}
+
+.j {
+    background: radial-gradient(pink, yellow, rgb(3, 253, 48), blue, aqua);
+    transform-origin: center;
+    transform: rotateX(-90deg) translateZ(11vw);
+}
+
+.k {
+    background: radial-gradient(aqua, blue, rgb(0, 255, 98), yellow, pink);
+    transform: rotateY(-90deg) translateZ(11vw);
+}
+
+.l {
+    background: radial-gradient(pink, yellow, rgb(3, 253, 48), blue, aqua);
+    transform: rotateY(90deg) translateZ(11vw);
+
+}
+
+.m {
+    background: radial-gradient(blue, red, pink);
+
+}
+
+.n {
+    background: radial-gradient(pink, yellow, blue);
+    transform: rotateY(90deg);
+}
